@@ -13,14 +13,14 @@ int my_compute_power_it(int nb, int p)
     y = nb;
     
     if (p < 0) {
-        return 0;
+        return (0);
     }
     else if (p == 0) {
-        return 1;
+        return (1);
     }
     while (i <= p) {
         nb  *= y;
         i++;
     }
-    return nb; 
+    return (nb); 
 }
