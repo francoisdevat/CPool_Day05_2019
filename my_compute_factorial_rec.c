@@ -7,7 +7,7 @@
 
 int my_compute_factorial_rec(int nb)
 {
-    if (nb == 1) {
+    if (nb == 1 || nb == 0) {
         return 1;
     {
     else if (nb > 12 || n < 0) {
