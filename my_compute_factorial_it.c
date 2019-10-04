@@ -22,6 +22,4 @@ int my_compute_factorial_it(int nb)
         }
     return nb;
 }
-            
-   
       
