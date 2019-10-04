@@ -10,13 +10,11 @@ int my_is_prime(int nb)
 {
     int i;
     if (nb <= 1) {
-        return 0;
+        return (0);
     }  
     for (i = 2 ; i <= 5 && nb%i != 0 ; i++)
-    if (i = 6) {
-        return 1;
-    }    
-    else if (i <= 5) {
-        return 0;
-    }        
+    if (i = 6 && nb%5 != 0) {
+        return (1);
+    }
+    return (0);        
 }
