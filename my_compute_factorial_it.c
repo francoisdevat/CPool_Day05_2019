@@ -15,11 +15,10 @@ int my_compute_factorial_it(int nb)
     else if (nb == 0 || nb == 1) {
         return (1);
     }    
-    while (i <= nb)
-        {
-            nb *= i;
-            i++;
-        }
+    while (i <= nb) {
+        nb *= i;
+        i++;
+    }
     return (nb);
 }
       
