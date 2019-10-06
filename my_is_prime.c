@@ -9,6 +9,9 @@
 int my_is_prime(int nb)
 {
     int i;
+    if  (nb == 2) {
+        return (1);
+    }                           
     if (nb <= 1) {
         return (0);
     }  
