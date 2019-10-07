@@ -16,7 +16,7 @@ int my_compute_factorial_it(int nb)
         return (1);
     }    
     while (i <= nb) {
-        nb *= i;
+        i *= nb;
         i++;
     }
     return (nb);
