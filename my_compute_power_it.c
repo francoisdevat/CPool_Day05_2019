@@ -19,7 +19,7 @@ int my_compute_power_it(int nb, int p)
         return (1);
     }
     while (i <= p) {
-        nb  *= y;
+        y  *= nb;
         i++;
     }
     return (nb); 
